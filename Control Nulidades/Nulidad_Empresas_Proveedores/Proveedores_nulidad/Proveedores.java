@@ -79,16 +79,4 @@ public class Proveedores {
     public String getContacto(){
         return this.Contacto;
     }
-
-
-    public void Imprimir() {
-        System.out.print("Nombre de la empresa: " + this.NombreProveedores + "\n");
-        System.out.print("Id de la empresa: " + this.IdProveedores + "\n");
-        System.out.print("Telefono de la empresa: " + this.Telefono + "\n");
-        System.out.print("Email de la empresa: " + this.Email + "\n");
-        System.out.print("Contacto de la empresa: " + this.Contacto + "\n");
-        System.out.print("Suma de los pagos: " + this.getsumaPago() + "\n");
-        System.out.print("Lista de pagos: " + this.getlistaPagos() + "\n");
-    }
-
 }
